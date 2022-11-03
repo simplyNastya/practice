@@ -1,0 +1,142 @@
+
+/* Utilities */
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.56;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+.logo-title {
+    font-weight: 500;
+}
+
+/* Header */
+
+.logo {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.18;
+}
+
+.logo-back {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.18;
+}
+
+.site-nav {
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.personalization {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+/* Hero */
+
+.hero-title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 1.4;
+}
+
+.hero-title>span {
+    font-weight: 700;
+}
+
+.hero-text {
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+/* Achievement */
+
+.achievement-count {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.achievement-item {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Features */
+
+.features {
+    font-size: 14px;
+    line-height: 2.14;
+}
+
+/* Plan */
+
+.plan-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.66;
+}
+
+.plan-content {
+    font-size: 14px;
+    line-height: 2.14;
+}
+
+.plan-charge {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+/* Customers */
+
+.customer-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.66;
+}
+
+.customer-city {
+    font-size: 14px;
+    line-height: 2.14;
+}
+
+/* Subscribe Now*/
+
+.subscribe-now {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.28;
+}
+
+/* Footer */
+
+.footer-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.66;
+}
