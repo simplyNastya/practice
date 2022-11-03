@@ -1,3 +1,12 @@
+:root {
+    --accent-color: #F53838;
+    --primary-font-color: #0B132A;
+    --secondary-font-color: #4F5665;
+    --personalization-button-color: #F53855;
+    --background-color: #F6F6F6;
+    --background-card-color: #FFFFFF;
+    --copyright-color: #AFB5C0;
+}
 
 /* Utilities */
 body {
@@ -5,26 +14,47 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+
+    background-color: var(--background-color);
+    color: var(--secondary-font-color);
+
 }
 
 .link {
     text-decoration: none;
+
+    color: var(--secondary-font-color);
 }
 
 .list {
     list-style: none;
 }
 
+.primary-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.56;
+
+    background-color: var(--accent-color);
+    color: var(--background-card-color);
+}
+
 .button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.56;
+
+    background-color: var(--background-card-color);
+    color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .title {
     font-weight: 500;
     font-size: 35px;
     line-height: 1.5;
+
+    color: var(--primary-font-color);
 }
 
 .logo-title {
@@ -37,12 +67,16 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.18;
+
+    color: var(--primary-font-color);
 }
 
 .logo-back {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.18;
+
+    color: var(--primary-font-color);
 }
 
 .site-nav {
@@ -61,6 +95,8 @@ body {
     font-weight: 500;
     font-size: 50px;
     line-height: 1.4;
+
+    color: var(--primary-font-color);
 }
 
 .hero-title>span {
@@ -73,6 +109,8 @@ body {
     font-weight: 700;
     font-size: 25px;
     line-height: 1.2;
+
+    color: var(--primary-font-color);
 }
 
 .achievement-item {
@@ -93,6 +131,8 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 1.66;
+
+    color: var(--primary-font-color);
 }
 
 .plan-content {
@@ -106,17 +146,27 @@ body {
     line-height: 1.2;
 }
 
+.cost {
+    color: var(--primary-font-color);
+}
+
 /* Customers */
 
 .customer-title {
     font-weight: 500;
     font-size: 18px;
     line-height: 1.66;
+
+    color: var(--primary-font-color);
 }
 
 .customer-city {
     font-size: 14px;
     line-height: 2.14;
+}
+
+.customer-text {
+    color: var(--primary-font-color);
 }
 
 /* Subscribe Now */
@@ -133,4 +183,10 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 1.66;
+
+    color: var(--primary-font-color);
+}
+
+.copyright {
+    color: var(--copyright-color);
 }

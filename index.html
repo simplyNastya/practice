@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LaslesVPN</title>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -27,7 +30,7 @@
         </nav>
         <ul class="list">
             <li><button type="button" class="personalization">Sign In</button></li>
-            <li><button type="button" class="personalization">Sign Up</button></li>
+            <li><button type="button" class="personalization up">Sign Up</button></li>
         </ul>
     </header>
     <main>
@@ -36,7 +39,7 @@
             <h1 class="hero-title">Want anything to be easy with <span>LaslesVPN</span>.</h1>
             <p>Provide a network for all your needs with ease and fun using <span class="logo-title">LaslesVPN</span> discover interesting features from
                 us.</p>
-            <button type="button" class="button">Get Started</button>
+            <button type="button" class="primary-button">Get Started</button>
         </section>
 
         <section>
@@ -82,7 +85,7 @@
                         <li>No Traffic Logs</li>
                         <li>Works on All Devices</li>
                     </ul>
-                    <p class="plan-charge">Free</p>
+                    <p class="plan-charge"><span class="cost">Free</span></p>
                     <button type="button" class="button">Select</button>
                 </li>
                 <li>
@@ -94,7 +97,7 @@
                         <li>Works on All Devices</li>
                         <li>Connect Anyware</li>
                     </ul>
-                    <p class="plan-charge">$9 / mo</p>
+                    <p class="plan-charge"><span class="cost">$9</span>/ mo</p>
                     <button type="button" class="button">Select</button>
                 </li>
                 <li>
@@ -107,7 +110,7 @@
                         <li>Connect Anyware</li>
                         <li>Get New Features</li>
                     </ul>
-                    <p class="plan-charge">$12 / mo</p>
+                    <p class="plan-charge"><span class="cost">$12</span>/ mo</p>
                     <button type="button" class="button">Select</button>
                 </li>
             </ul>
@@ -140,7 +143,7 @@
                     <h3 class="customer-title">Viezh Robert</h3>
                     <p class="customer-city">Warsaw, Poland</p>
                     <p>4.5</p>
-                    <p>“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far
+                    <p class="customer-text">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far
                         there have been no
                         problems. LaslesVPN always the best”.</p>
                 </li>
@@ -149,14 +152,14 @@
                     <h3 class="customer-title">Yessica Christy</h3>
                     <p class="customer-city">Shanxi, China</p>
                     <p>4.5</p>
-                    <p>“I like it because I like to travel far and still can connect with high speed.”.</p>
+                    <p class="customer-text">“I like it because I like to travel far and still can connect with high speed.”.</p>
                 </li>
                 <li>
                     <img src="./images/ellipse-175.png" alt="Korean man" width="50">
                     <h3 class="customer-title">Kim Young Jou</h3>
                     <p class="customer-city">Seoul, South Korea</p>
                     <p>4.5</p>
-                    <p>“This is very unusual for my business that currently requires a virtual private network that has
+                    <p class="customer-text">“This is very unusual for my business that currently requires a virtual private network that has
                         high security.”.</p>
                 </li>
             </ul>
@@ -169,7 +172,7 @@
         <section>
             <h2 class="subscribe-now">Subscribe Now for Get Special Features!</h2>
             <p>Let's subscribe with us and find the fun.</p>
-            <button type="button" class="button">Subscribe Now</button>
+            <button type="button" class="primary-button">Subscribe Now</button>
         </section>
     </main>
     <footer>
@@ -183,7 +186,7 @@
             <li><a href="#" class="link">Twitter</a></li>
             <li><a href="#" class="link">Instagram</a></li>
         </ul>
-        <p>©2020<span class="logo-title">LaslesVPN</span></p>
+        <p class="copyright">©2020<span class="logo-title">LaslesVPN</span></p>
         <h2 class="footer-title">Product</h2>
         <ul class="list">
             <li><a href="#" class="link">Download</a></li>
