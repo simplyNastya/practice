@@ -17,8 +17,10 @@
     <header>
         <div class="container header">
         <a href="./index.html" class="link">
-                <img src="./images/logo.jpg" alt="Company logo" width="35" class="logo-image">
-                <span class="logo">Lasles</span><span class="logo-back">VPN</span>
+            <svg class="logo-image">
+                <use href="./images/symbol-defs.svg#icon-logo-image"></use>
+            </svg>
+            <span class="logo">Lasles</span><span class="logo-back">VPN</span>
         </a>
         <nav>
             <ul class="site-nav list">
@@ -36,9 +38,9 @@
         </div>
     </header>
     <main>
-        <section>
+        <section class="hero-section">
             <div class="container hero">
-                <img src="./images/illustration-1.jpg" alt="Girl works on the computer" width="611">
+                <img src="./images/illustration-1.png" alt="Girl works on the computer" width="611">
                 <div class="hero-text">
                     <h1 class="hero-title">Want anything to be easy with <span>LaslesVPN</span>.</h1>
                     <p>Provide a network for all your needs with ease and fun using <span class="logo-title">LaslesVPN</span> discover
@@ -49,148 +51,323 @@
             </div>
         </section>
 
-        <section>
+        <section class="achievement-section">
             <div class="container">
                 <h2 hidden>Achievement</h2>
                 <ul class="list achievement">
                     <li class="achievement-item">
-                        <h3 class="achievement-title">Users</h3>
-                        <p class="achievement-count">90+</p>
+                        <svg class="achievement-icon">
+                            <use href="./images/symbol-defs.svg#icon-user">
+                            </use>
+                        </svg>
+                        <div class="achievement-group">
+                            <h3 class="achievement-title">Users</h3>
+                            <p class="achievement-count">90+</p>
+                        </div>
                     </li>
                     <li class="achievement-item">
-                        <h3 class="achievement-title">Locations</h3>
-                        <p class="achievement-count">30+</p>
+                        <svg class="achievement-icon">
+                            <use href="./images/symbol-defs.svg#icon-location">
+                            </use>
+                        </svg>
+                        <div class="achievement-group">
+                            <h3 class="achievement-title">Locations</h3>
+                            <p class="achievement-count">30+</p>
+                        </div>
                     </li>
                     <li class="achievement-item">
-                        <h3 class="achievement-title">Servers</h3>
-                        <p class="achievement-count">50+</p>
+                        <svg class="achievement-icon">
+                            <use href="./images/symbol-defs.svg#icon-server">
+                            </use>
+                        </svg>
+                        <div class="achievement-group">
+                            <h3 class="achievement-title">Servers</h3>
+                            <p class="achievement-count">50+</p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section>
+        <section class="features-section">
            <div class="container features-flex">
             <img src="./images/illustration-2.png" alt="Girl works on the computer and there is firework behind" width="508">
             <div class="features-text">
                 <h2 class="title">We Provide Many Features You Can Use</h2>
                 <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
-                <ul class="list features">
-                    <li class="feature-item">Powerfull online protection.</li>
-                    <li class="feature-item">Internet without borders.</li>
-                    <li class="feature-item">Supercharged VPN</li>
-                    <li class="feature-item">No specific time limits.</li>
+                <ul class="list features-list">
+                    <li class="feature-item">
+                        <svg class="feature-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                        <p>Powerfull online protection.</p>
+                    </li>
+                    <li class="feature-item">
+                        <svg class="feature-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                        <p>Internet without borders.</p>
+                    </li>
+                    <li class="feature-item">
+                        <svg class="feature-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                        <p>Supercharged VPN.</p>
+                    </li>
+                    <li class="feature-item">
+                        <svg class="feature-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                        <p>No specific time limits.</p>
+                    </li>
                 </ul>
             </div>
            </div>
         </section>
 
-        <section>
+        <section class="plan-section">
             <div class="container">
                 <h2 class="title plan">Choose Your Plan</h2>
                 <p class="plan-text">Let's choose the package that is best for you and explore it happily and cheerfully.</p>
                 <ul class="list plan-list">
                     <li class="plan-item">
-                        <img src="./images/Free.png" alt="Box with three balls" width="145">
+                        <img src="./images/free.png" alt="Box with three balls" width="145">
                         <h3 class="tarif-title">Free Plan</h3>
                         <ul class="list tarif-content">
-                            <li>Unlimited Bandwitch</li>
-                            <li>Encrypted Connection</li>
-                            <li>No Traffic Logs</li>
-                            <li>Works on All Devices</li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                                    <use href="./images/symbol-defs.svg#icon-check-mark">
+                                    </use>
+                                </svg>
+                                <p>Unlimited Bandwitch</p>
+                            </li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                                    <use href="./images/symbol-defs.svg#icon-check-mark">
+                                    </use>
+                                </svg>
+                                <p>Encrypted Connection</p>
+                            </li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                                    <use href="./images/symbol-defs.svg#icon-check-mark">
+                                    </use>
+                                </svg>
+                                <p>No Traffic Logs</p>
+                            </li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                                    <use href="./images/symbol-defs.svg#icon-check-mark">
+                                    </use>
+                                </svg>
+                                <p>Works on All Devices</p>
+                            </li>
                         </ul>
                         <div class="tarif-cost-per-month">
                             <p class="tarif-charge"><span class="cost">Free</span></p>
-                            <button type="button" class="button">Select</button>
+                            <button type="button" class="button plan-btn">Select</button>
                         </div>
                     </li>
                     <li class="plan-item">
-                        <img src="./images/Standard.png" alt="Box with four balls" width="145">
+                        <img src="./images/standard.png" alt="Box with four balls" width="145">
                         <h3 class="tarif-title">Standard Plan</h3>
                         <ul class="list tarif-content">
-                            <li>Unlimited Bandwitch</li>
-                            <li>Encrypted Connection</li>
-                            <li>Yes Traffic Logs</li>
-                            <li>Works on All Devices</li>
-                            <li>Connect Anyware</li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                                <p>Unlimited Bandwitch</p>
+                            </li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                                <p>Encrypted Connection</p>
+                            </li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                                <p>Yes Traffic Logs</p>
+                            </li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                                <p>Works on All Devices</p>
+                            </li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                                <p>Connect Anyware</p>
+                            </li>
                         </ul>
                         <div class="tarif-cost-per-month">
                             <p class="tarif-charge"><span class="cost">$9</span>/ mo</p>
-                            <button type="button" class="button">Select</button>
+                            <button type="button" class="button plan-btn">Select</button>
                         </div>
                     </li>
                     <li class="plan-item">
-                        <img src="./images/Premium.png" alt="Box with five balls" width="145">
+                        <img src="./images/premium.png" alt="Box with five balls" width="145">
                         <h3 class="tarif-title">Premium Plan</h3>
                         <ul class="list tarif-content">
-                            <li>Unlimited Bandwitch</li>
-                            <li>Encrypted Connection</li>
-                            <li>Yes Traffic Logs</li>
-                            <li>Works on All Devices</li>
-                            <li>Connect Anyware</li>
-                            <li>Get New Features</li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                                <p>Unlimited Bandwitch</p>
+                            </li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                                <p>Encrypted Connection</p>
+                            </li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                                <p>Yes Traffic Logs</p>
+                            </li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                                <p>Works on All Devices</p>
+                            </li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                                <p>Connect Anyware</p>
+                            </li>
+                            <li class="tarif-group">
+                                <svg class="plan-check-icon">
+                            <use href="./images/symbol-defs.svg#icon-check-mark">
+                            </use>
+                        </svg>
+                                <p>Get New Features</p>
+                            </li>
                         </ul>
                         <div class="tarif-cost-per-month">
                             <p class="tarif-charge"><span class="cost">$12</span>/ mo</p>
-                            <button type="button" class="button">Select</button>
+                            <button type="button" class="button plan-btn">Select</button>
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section>
+        <section class="network-section">
            <div class="container">
-            <h2 class="title">Huge Global Network of Fast VPN</h2>
-            <p>See <span class="logo-title">LaslesVPN</span> everywhere to make it easier for you when you move locations.</p>
-            <img src="./images/huge-global.png" alt="The world`s map with an access dots">
+            <h2 class="title network-title">Huge Global Network of Fast VPN</h2>
+            <p class="network-subtitle">See <span class="logo-title">LaslesVPN</span> everywhere to make it easier for you when you move locations.</p>
+            <svg class="network-map">
+                <use href="./images/symbol-defs.svg#icon-Huge-Global">
+                </use>
+            </svg>
            </div>
         </section>
 
-        <section>
+        <section class="customer-section">
             <div class="container">
-                <h2 hidden>The most popular users</h2>
-                <ul class="list">
-                    <li><img src="./images/netflix.png" alt="Netflix logo" width="190" height="60"></li>
-                    <li><img src="./images/redit.png" alt="Reddit logo" width="190" height="60"></li>
-                    <li><img src="./images/amazon.png" alt="Amazon logo" width="190" height="60"></li>
-                    <li><img src="./images/discord.png" alt="Discord logo" width="190" height="60"></li>
-                    <li><img src="./images/spotify.png" alt="Spotify logo" width="190" height="60"></li>
+                <ul class="list customer-list">
+                    <li class="customer-list-item">
+                        <img src="./images/netflix.png" alt="Netflix" width="190" height="60">
+                    </li>
+                    <li class="customer-list-item">
+                        <img src="./images/reddit.png" alt="Reddit" width="190" height="60">
+                    </li>
+                    <li class="customer-list-item">
+                        <img src="./images/amazon.png" alt="Amazon" width="190" height="60">
+                    </li>
+                    <li class="customer-list-item">
+                        <img src="./images/discord.png" alt="Discord" width="190" height="60">
+                    </li>
+                    <li class="customer-list-item">
+                        <img src="./images/spotify.png" alt="Spotify" width="190" height="60">
+                    </li>
                 </ul>
-            </div>
-        </section>
-
-        <section>
-            <div class="container">
-                <h2 class="title">Trusted by Thousands of Happy Customer</h2>
-                <p>These are the stories of our customers who have joined us with great pleasure when using this crazy
+                <h2 class="title customer-section-title">Trusted by Thousands of Happy Customer</h2>
+                <p class="customer-section-subtitle">These are the stories of our customers who have joined us with great pleasure when using this crazy
                     feature.</p>
                 <ul class="list">
                     <li>
-                        <img src="./images/ellipse-175(2).png" alt="Man with a smile" width="50">
-                        <h3 class="customer-title">Viezh Robert</h3>
-                        <p class="customer-city">Warsaw, Poland</p>
-                        <p>4.5</p>
-                        <p class="customer-text">“Wow... I am very happy to use this VPN, it turned out to be more than my expectations
-                            and so far
-                            there have been no
-                            problems. LaslesVPN always the best”.</p>
+                        <div class="people-card">
+                            <img src="./images/customer-1.jpg" alt="Man with a smile" width="50" class="customer-img">
+                            <div class="people-title">
+                                <h3 class="customer-title">Viezh Robert</h3>
+                                <p class="customer-city">Warsaw, Poland</p>
+                            </div>
+                            <div class="people-mark-div">
+                                <p class="people-mark">4.5</p>
+                                <svg class="mark-icon">
+                                    <use href="./images/symbol-defs.svg#icon-star">
+                                    </use>
+                                </svg>
+                            </div>
+                            <p class="customer-text">
+                                “Wow... I am very happy to use this VPN, it turned out to be more than my expectations
+                                and so far
+                                there have been no
+                                problems. LaslesVPN always the best”.
+                            </p>
+                        </div>
                     </li>
                     <li>
-                        <img src="./images/ellipse-175(1).png" alt="Woman with long black hair" width="50">
-                        <h3 class="customer-title">Yessica Christy</h3>
-                        <p class="customer-city">Shanxi, China</p>
-                        <p>4.5</p>
-                        <p class="customer-text">“I like it because I like to travel far and still can connect with high speed.”.</p>
+                        <div class="people-card">
+                            <img src="./images/customer-2.jpg" alt="Woman with long black hair" width="50" class="customer-img">
+                            <div class="people-title">
+                                <h3 class="customer-title">Yessica Christy</h3>
+                                <p class="customer-city">Shanxi, China</p>
+                            </div>
+                            <div class="people-mark-div">
+                                <p class="people-mark">4.5</p>
+                                <svg class="mark-icon">
+                                    <use href="./images/symbol-defs.svg#icon-star">
+                                    </use>
+                                </svg>
+                            </div>
+                            <p class="customer-text">
+                                “I like it because I like to travel far and still can connect with high speed.”.
+                            </p>
+                        </div>
                     </li>
                     <li>
-                        <img src="./images/ellipse-175.png" alt="Korean man" width="50">
-                        <h3 class="customer-title">Kim Young Jou</h3>
-                        <p class="customer-city">Seoul, South Korea</p>
-                        <p>4.5</p>
-                        <p class="customer-text">“This is very unusual for my business that currently requires a virtual private network
-                            that has
-                            high security.”.</p>
+                        <div class="people-card">
+                            <img src="./images/cusomer-3.jpg" alt="Korean man" width="50" class="customer-img">
+                            <div class="people-title">
+                                <h3 class="customer-title">Kim Young Jou</h3>
+                                <p class="customer-city">Seoul, South Korea</p>
+                            </div>
+                            <div class="people-mark-div">
+                                <p class="people-mark">4.5</p>
+                                <svg class="mark-icon">
+                                    <use href="./images/symbol-defs.svg#icon-star">
+                                    </use>
+                                </svg>
+                            </div>
+                            <p class="customer-text">
+                                “This is very unusual for my business that currently requires a virtual private network
+                                that has
+                                high security.”.
+                            </p>
+                        </div>
                     </li>
                 </ul>
                 <ul class="list">
