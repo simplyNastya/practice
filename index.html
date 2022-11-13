@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header-section">
         <div class="container header">
         <a href="./index.html" class="link">
             <svg class="logo-image">
@@ -306,20 +306,23 @@
                 <h2 class="title customer-section-title">Trusted by Thousands of Happy Customer</h2>
                 <p class="customer-section-subtitle">These are the stories of our customers who have joined us with great pleasure when using this crazy
                     feature.</p>
-                <ul class="list">
-                    <li>
-                        <div class="people-card">
-                            <img src="./images/customer-1.jpg" alt="Man with a smile" width="50" class="customer-img">
-                            <div class="people-title">
-                                <h3 class="customer-title">Viezh Robert</h3>
-                                <p class="customer-city">Warsaw, Poland</p>
-                            </div>
-                            <div class="people-mark-div">
-                                <p class="people-mark">4.5</p>
-                                <svg class="mark-icon">
-                                    <use href="./images/symbol-defs.svg#icon-star">
-                                    </use>
-                                </svg>
+                <ul class="list people-card-list">
+                    <li class="people-card">
+                            <div class="people-card-header">
+                                <img src="./images/customer-1.jpg" alt="Man with a smile" width="50" height="50" class="customer-img">
+                                <div class="people-city-mark-group">
+                                    <div class="people-title">
+                                        <h3 class="customer-title">Viezh Robert</h3>
+                                        <p class="customer-city">Warsaw, Poland</p>
+                                    </div>
+                                    <div class="people-mark-div">
+                                        <p class="people-mark">4.5</p>
+                                        <svg class="mark-icon">
+                                            <use href="./images/symbol-defs.svg#icon-star">
+                                            </use>
+                                        </svg>
+                                    </div>
+                                </div>
                             </div>
                             <p class="customer-text">
                                 “Wow... I am very happy to use this VPN, it turned out to be more than my expectations
@@ -327,102 +330,148 @@
                                 there have been no
                                 problems. LaslesVPN always the best”.
                             </p>
-                        </div>
                     </li>
-                    <li>
-                        <div class="people-card">
-                            <img src="./images/customer-2.jpg" alt="Woman with long black hair" width="50" class="customer-img">
-                            <div class="people-title">
-                                <h3 class="customer-title">Yessica Christy</h3>
-                                <p class="customer-city">Shanxi, China</p>
-                            </div>
-                            <div class="people-mark-div">
-                                <p class="people-mark">4.5</p>
-                                <svg class="mark-icon">
-                                    <use href="./images/symbol-defs.svg#icon-star">
-                                    </use>
-                                </svg>
+                    <li class="people-card">
+                            <div class="people-card-header">
+                                <img src="./images/customer-2.jpg" alt="Woman with long black hair" width="50" height="50" class="customer-img">
+                                <div class="people-title">
+                                    <h3 class="customer-title">Yessica Christy</h3>
+                                    <p class="customer-city">Shanxi, China</p>
+                                </div>
+                                <div class="people-mark-div">
+                                    <p class="people-mark">4.5</p>
+                                    <svg class="mark-icon">
+                                        <use href="./images/symbol-defs.svg#icon-star">
+                                        </use>
+                                    </svg>
+                                </div>
                             </div>
                             <p class="customer-text">
                                 “I like it because I like to travel far and still can connect with high speed.”.
                             </p>
-                        </div>
                     </li>
-                    <li>
-                        <div class="people-card">
-                            <img src="./images/cusomer-3.jpg" alt="Korean man" width="50" class="customer-img">
-                            <div class="people-title">
-                                <h3 class="customer-title">Kim Young Jou</h3>
-                                <p class="customer-city">Seoul, South Korea</p>
-                            </div>
-                            <div class="people-mark-div">
-                                <p class="people-mark">4.5</p>
-                                <svg class="mark-icon">
-                                    <use href="./images/symbol-defs.svg#icon-star">
-                                    </use>
-                                </svg>
+                    <li class="people-card">
+                            <div class="people-card-header">
+                                <img src="./images/cusomer-3.jpg" alt="Korean man" width="50" height="50" class="customer-img">
+                                <div class="people-title">
+                                    <h3 class="customer-title">Kim Young Jou</h3>
+                                    <p class="customer-city">Seoul, South Korea</p>
+                                </div>
+                                <div class="people-mark-div">
+                                    <p class="people-mark">4.5</p>
+                                    <svg class="mark-icon">
+                                        <use href="./images/symbol-defs.svg#icon-star">
+                                        </use>
+                                    </svg>
+                                </div>
                             </div>
                             <p class="customer-text">
                                 “This is very unusual for my business that currently requires a virtual private network
                                 that has
                                 high security.”.
                             </p>
-                        </div>
                     </li>
                 </ul>
-                <ul class="list">
-                    <li><button type="button">pointer back</button></li>
-                    <li><button type="button">pointer forward</button></li>
+                <ul class="customer-button-list">
+                    <li class="customer-section-button-item">
+                        <button class="customer-section-btn">
+                            <svg class="customer-section-btn-icon">
+                                <use href="./images/symbol-defs.svg#icon-arrow-back"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="customer-section-button-item">
+                        <button class="customer-section-btn">
+                            <svg class="customer-section-btn-icon">
+                                <use href="./images/symbol-defs.svg#icon-arrow-forward"></use>
+                            </svg>
+                        </button>
+                    </li>
                 </ul>
             </div>
         </section>
 
-        <section>
-            <div class="container">
-                <h2 class="subscribe-now">Subscribe Now for Get Special Features!</h2>
-                <p>Let's subscribe with us and find the fun.</p>
-                <button type="button" class="primary-button">Subscribe Now</button>
+        <section class="subscribe-now-section">
+            <div class="container subsribe-now-container">
+                <div class="subscribe-now-text">
+                    <h2 class="subscribe-now-title">Subscribe Now for Get Special Features!</h2>
+                    <p>Let's subscribe with us and find the fun.</p>
+                </div>
+                <button type="button" class="primary-button subscribe-now-button">Subscribe Now</button>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <a href="./index.html" class="link">
-                <img src="./images/logo.jpg" alt="Company logo" width="16">
-                <span class="logo">Lasles</span><span class="logo-back">VPN</span>
-            </a>
-            <p><span class="logo-title">LaslesVPN</span> is a private virtual network that has unique features and has high
-                security.</p>
-            <ul class="list">
-                <li><a href="#" class="link">Facebook</a></li>
-                <li><a href="#" class="link">Twitter</a></li>
-                <li><a href="#" class="link">Instagram</a></li>
-            </ul>
-            <p class="copyright">©2020<span class="logo-title">LaslesVPN</span></p>
-            <h2 class="footer-title">Product</h2>
-            <ul class="list">
-                <li><a href="#" class="link">Download</a></li>
-                <li><a href="#" class="link">Pricing</a></li>
-                <li><a href="#" class="link">Locations</a></li>
-                <li><a href="#" class="link">Server</a></li>
-                <li><a href="#" class="link">Countries</a></li>
-                <li><a href="#" class="link">Blog</a></li>
-            </ul>
-            <h2 class="footer-title">Engage</h2>
-            <ul class="list">
-                <li><a href="#" class="link">LaslesVPN ?</a></li>
-                <li><a href="#" class="link">FAQ</a></li>
-                <li><a href="#" class="link">Tutorials</a></li>
-                <li><a href="#" class="link">About Us</a></li>
-                <li><a href="#" class="link">Privacy Policy</a></li>
-                <li><a href="#" class="link">Terms of Service</a></li>
-            </ul>
-            <h2 class="footer-title">Earn Money</h2>
-            <ul class="list">
-                <li><a href="#" class="link">Affiliate</a></li>
-                <li><a href="#" class="link">Become Partner</a></li>
-            </ul>
+    <footer class="footer-section">
+        <div class="container footer-container">
+            <div class="footer-company-info">
+                <a href="./index.html" class="link footer-logo-link">
+                    <svg class="logo-image">
+                        <use href="./images/symbol-defs.svg#icon-logo-image"></use>
+                    </svg>
+                    <span class="logo">Lasles</span><span class="logo-back">VPN</span>
+                </a>
+                <p class="footer-company-info-text">
+                    <span class="logo-title">LaslesVPN</span> 
+                    is a private virtual network that has unique features and has high security.
+                </p>
+                <ul class="list footer-socials-list">
+                    <li class="footer-socials-item">
+                        <a href="#" class="link footer-socials-link">
+                            <svg class="footer-socials-icon">
+                                <use href="./images/symbol-defs.svg#icon-facebook">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-socials-item">
+                        <a href="#" class="link footer-socials-link">
+                            <svg class="footer-socials-icon">
+                                <use href="./images/symbol-defs.svg#icon-twitter">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-socials-item">
+                        <a href="#" class="link footer-socials-link">
+                            <svg class="footer-socials-icon">
+                                <use href="./images/symbol-defs.svg#icon-instagram">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright">&#169;2020<span class="logo-title">LaslesVPN</span></p>
+            </div>
+            <div class="footer-subsecion">
+                <h2 class="footer-title">Product</h2>
+                <ul class="list">
+                    <li><a href="#" class="link footer-subtitle-link">Download</a></li>
+                    <li><a href="#" class="link footer-subtitle-link">Pricing</a></li>
+                    <li><a href="#" class="link footer-subtitle-link">Locations</a></li>
+                    <li><a href="#" class="link footer-subtitle-link">Server</a></li>
+                    <li><a href="#" class="link footer-subtitle-link">Countries</a></li>
+                    <li><a href="#" class="link footer-subtitle-link">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-subsection">
+                <h2 class="footer-title">Engage</h2>
+                <ul class="list">
+                    <li><a href="#" class="link footer-subtitle-link">LaslesVPN ?</a></li>
+                    <li><a href="#" class="link footer-subtitle-link">FAQ</a></li>
+                    <li><a href="#" class="link footer-subtitle-link">Tutorials</a></li>
+                    <li><a href="#" class="link footer-subtitle-link">About Us</a></li>
+                    <li><a href="#" class="link footer-subtitle-link">Privacy Policy</a></li>
+                    <li><a href="#" class="link footer-subtitle-link">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-subsection">
+                <h2 class="footer-title">Earn Money</h2>
+                <ul class="list">
+                    <li><a href="#" class="link footer-subtitle-link">Affiliate</a></li>
+                    <li><a href="#" class="link footer-subtitle-link">Become Partner</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
