@@ -349,7 +349,6 @@ img {
 
 .plan-item {
     width: 330px;
-    height: 760px;
     border: 2px solid #DDDDDD;
     border-radius: 10px;
 
@@ -357,13 +356,10 @@ img {
 
     padding-top: 79px;
     padding-bottom: 50px;
-/* 
-    display: flex;
-    flex-direction: column; */
-}
 
-.plan-item>img {
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .tarif-group {
@@ -401,6 +397,11 @@ img {
     color: var(--background-card-color);
 }
 
+.plan-box {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .tarif-title {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -421,10 +422,6 @@ img {
 
 .tarif-content>li:not(:first-child) {
     margin-top: 10px;
-}
-
-.tarif-cost-per-month {
-    margin-top: auto;
 }
 
 .tarif-charge {
